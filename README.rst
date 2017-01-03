@@ -29,6 +29,7 @@ Using gameboycore is as easy as py!
 Here are some examples:
 
 ```python
+
 import gameboycore, pygame, sys
 
 core = gameboycore.GameboyCore()
@@ -47,4 +48,5 @@ def drawScanline(scanline,line):
 while True:
     core.update(2048) # Number of `steps` the emulated Z80 cpu makes.
     pygame.display.update()
+    
 ```
