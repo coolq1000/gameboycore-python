@@ -50,3 +50,7 @@ while True:
     pygame.display.update()
     
 ```
+
+```python
+print("hi")
+```
