@@ -5,7 +5,7 @@ Gameboy Core Python
 ![img] (https://img.shields.io/pypi/v/gameboycore.svg)
 ![img] (https://readthedocs.org/projects/gameboycore-python/badge/?version=latest)
 
-`Python Bindings for [GameboyCore] (https://github.com/nnarain/gameboycore)`
+* Python Bindings for [GameboyCore] (https://github.com/nnarain/gameboycore)  
 
 Hello fellow developers!  
 GameboyCore is a python gameboy emulator, it is a library that makes the emulation process a whole lot easier.
