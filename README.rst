@@ -16,3 +16,4 @@ Installation
 ------------
 
     pip install gameboycore
+tester
