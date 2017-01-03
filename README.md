@@ -23,6 +23,8 @@ Usage,
 Using gameboycore is as easy as py!  
 Here are some examples:
 
+Example #1 (Video: Yes, Audio: No, Input: No.) Description:( A basic example ):
+
 ```python
 import gameboycore, pygame, sys
 
@@ -54,3 +56,8 @@ while True:
     core.update(2048) # Number of `steps` the emulated Z80 cpu makes.
     pygame.display.set_caption(str(int(fps)))
 ```
+
+More examples will come, documentation is still under heavy development.
+
+<sub>gameboycore was originally and currently created and maintained by Nnarain, documentation created by Rohan (coolq).</sub>
+<sub>Last updated 1/4/2017.</sub>
