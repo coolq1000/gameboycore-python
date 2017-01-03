@@ -18,39 +18,35 @@ GameboyCore is a python gameboy emulator, it is a library that makes the emulati
 
 
 
-# Installation,
-
+Installation,
+------------
 `using pypi:`
     pip install gameboycore
 
-# Usage,
+Usage,
+------
 
 Using gameboycore is as easy as py!  
 Here are some examples:
 
-```python
+.. code-block:: python
+    :linenos:
 
-import gameboycore, pygame, sys
+    import gameboycore, pygame, sys
 
-core = gameboycore.GameboyCore()
-core.open("game.gb")
+    core = gameboycore.GameboyCore()
+    core.open("game.gb")
 
-pygame.init()
+    pygame.init()
 
-w,h = 320,288
-screen = pygame.display.set_mode((w,h))
+    w,h = 320,288
+    screen = pygame.display.set_mode((w,h))
 
-def drawScanline(scanline,line):
-    for i in range(len(scanline)):
-        pixel = scanline[i]
-        screen.fill((pixel.r,pixel.g,pixel.b),(i*w/160,line*h/144,w/160,h/144))
+    def drawScanline(scanline,line):
+        for i in range(len(scanline)):
+            pixel = scanline[i]
+            screen.fill((pixel.r,pixel.g,pixel.b),(i*w/160,line*h/144,w/160,h/144))
 
-while True:
-    core.update(2048) # Number of `steps` the emulated Z80 cpu makes.
-    pygame.display.update()
-    
-```
-
-```python
-print("hi")
-```
+    while True:
+        core.update(2048) # Number of `steps` the emulated Z80 cpu makes.
+        pygame.display.update()
