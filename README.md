@@ -57,7 +57,13 @@ while True:
     pygame.display.set_caption(str(int(fps)))
 ```
 
-More examples will come, documentation is still under heavy development.
+Example #2 (Video: Yes, Audio: No, Input: Yes.) Description:( Another basic example ):
+
+```python
+
+```
+
+More examples may come, documentation is still under heavy development.
 
 <sub>gameboycore was originally and currently created and maintained by Nnarain, documentation created by Rohan (coolq).</sub>
-<sub>Last updated 1/4/2017.</sub>
+<sub>Last updated 1/7/2017.</sub>
